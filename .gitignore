@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ======================
+# Project-specific rules
+# ======================
+
+# Data (never push raw datasets)
+data/raw/
+data/private/
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# MLflow
+mlruns/
+
+# Logs
+logs/
+
+# Large CSV files (optional safeguard)
+*.csv
