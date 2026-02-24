@@ -1,0 +1,15 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# data (important)
+log_dataset.csv
+data/raw/
+data/private/
+
+# model artifacts
+models/
+*.pkl
+*.joblib
